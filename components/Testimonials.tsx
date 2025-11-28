@@ -7,7 +7,7 @@ const testimonials: TestimonialType[] = [
     id: 1,
     name: "Carla Mendes",
     role: "Perdeu 15kg em 3 meses",
-    image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=150&auto=format&fit=crop",
+    image: "https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&w=400",
     quote: "Perdi 15kg em 3 meses seguindo o ebook! O melhor é que não passei fome e aprendi a comer de verdade. Minha autoestima voltou e me sinto incrível!",
     rating: 5
   },
@@ -15,7 +15,7 @@ const testimonials: TestimonialType[] = [
     id: 2,
     name: "Juliana Santos",
     role: "Emagreceu 10kg com saúde",
-    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=150&auto=format&fit=crop",
+    image: "https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&w=400",
     quote: "Já tinha tentado várias dietas e nada funcionava. Este ebook me ensinou que é possível emagrecer de forma leve e saudável. Recomendo muito!",
     rating: 5
   },
@@ -23,7 +23,7 @@ const testimonials: TestimonialType[] = [
     id: 3,
     name: "Ana Paula Costa",
     role: "Resultados em 6 semanas",
-    image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=150&auto=format&fit=crop",
+    image: "https://images.pexels.com/photos/948873/pexels-photo-948873.jpeg?auto=compress&cs=tinysrgb&w=400",
     quote: "Achei que seria difícil, mas o método é super prático. Consegui encaixar na minha rotina corrida e os resultados apareceram rapidinho. Estou muito feliz!",
     rating: 5
   }

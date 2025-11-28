@@ -119,13 +119,13 @@ export const CourseContent: React.FC = () => {
           {/* Right Side Images */}
           <div className="w-full lg:w-1/2 space-y-6 lg:sticky lg:top-32 h-fit">
             <img 
-              src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=2070&auto=format&fit=crop" 
-              alt="Acompanhamento e rotina no celular" 
+              src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+              alt="Mulher feliz preparando uma salada saudável, representando os módulos de receitas e alimentação." 
               className="w-full h-64 object-cover rounded-3xl shadow-lg"
             />
             <img 
-              src="https://images.unsplash.com/photo-1517836357463-d25769937e4c?q=80&w=2070&auto=format&fit=crop" 
-              alt="Mulher realizando treino de Tabata de alta intensidade" 
+              src="https://images.pexels.com/photos/4753997/pexels-photo-4753997.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+              alt="Mulher sorrindo enquanto faz exercícios em casa, demonstrando a praticidade do método." 
               className="w-full h-64 object-cover rounded-3xl shadow-lg"
             />
           </div>

@@ -21,26 +21,24 @@ export const Pricing: React.FC = () => {
           
           {/* Ebook Cover Recreation */}
           <div className="flex justify-center mb-8">
-            <div className="relative w-48 md:w-56 aspect-[2/3] bg-white rounded-r-lg shadow-2xl transform -rotate-2 hover:rotate-0 transition-all duration-500 cursor-pointer group overflow-hidden border-l-4 border-gray-200">
+            <div className="relative w-48 md:w-56 aspect-[2/3] bg-gray-800 rounded-r-lg shadow-2xl transform -rotate-3 hover:rotate-0 transition-all duration-500 cursor-pointer group overflow-hidden border-l-8 border-black">
               {/* Cover Image */}
               <img 
-                src="https://images.unsplash.com/photo-1544367563-12123d8965cd?q=80&w=600&h=900&auto=format&fit=crop" 
-                alt="Capa do Ebook Emagreça com Saúde" 
+                src="https://images.pexels.com/photos/1032650/pexels-photo-1032650.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+                alt="Capa do Ebook Emagreça com Saúde com um fundo de praia sereno ao pôr do sol" 
                 className="absolute inset-0 w-full h-full object-cover"
               />
               
-              {/* Subtle lighting gradient, keeping top clear for text */}
               <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black/20"></div>
 
               {/* Spine Effect */}
-              <div className="absolute top-0 bottom-0 left-0 w-1.5 bg-gradient-to-r from-white/40 to-transparent"></div>
-              <div className="absolute top-0 bottom-0 left-1.5 w-[1px] bg-black/10"></div>
+              <div className="absolute top-0 bottom-0 left-0 w-2 bg-gradient-to-r from-black/40 to-transparent"></div>
 
               {/* Title Text Overlay matching the reference */}
               <div className="absolute top-10 left-0 right-0 text-center z-10 px-2 flex flex-col items-center">
-                <h3 className="text-white font-bold text-3xl tracking-wide leading-none" style={{textShadow: '0 2px 4px rgba(0,0,0,0.3)'}}>Emagreça</h3>
-                <span className="text-gray-900 font-bold text-[10px] uppercase tracking-widest my-1">Com</span>
-                <h3 className="text-yellow-300 font-extrabold text-4xl tracking-tight leading-none" style={{textShadow: '0 2px 4px rgba(0,0,0,0.3)'}}>Saúde</h3>
+                <h3 className="text-white font-bold text-3xl tracking-wide leading-none" style={{textShadow: '0 2px 4px rgba(0,0,0,0.5)'}}>Emagreça</h3>
+                <span className="text-white font-bold text-[10px] uppercase tracking-widest my-1" style={{textShadow: '0 1px 3px rgba(0,0,0,0.5)'}}>Com</span>
+                <h3 className="text-yellow-300 font-extrabold text-4xl tracking-tight leading-none" style={{textShadow: '0 2px 4px rgba(0,0,0,0.5)'}}>Saúde</h3>
               </div>
             </div>
           </div>

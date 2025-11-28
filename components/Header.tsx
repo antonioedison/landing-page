@@ -26,8 +26,8 @@ export const Header: React.FC = () => {
       }`}
     >
       <div className="container mx-auto px-4 flex items-center justify-between">
-        <div className={`text-2xl font-serif font-bold italic tracking-tight ${isScrolled ? 'text-brand-700' : 'text-white'}`}>
-          Emagreça<span className={isScrolled ? 'text-yellow-500' : 'text-brand-300'}>Saúde</span>
+        <div className={`text-2xl font-serif font-bold italic tracking-tight text-brand-700`}>
+          Emagreça<span className={`text-yellow-500`}>Saúde</span>
         </div>
 
         {/* Desktop Nav */}
@@ -38,7 +38,7 @@ export const Header: React.FC = () => {
               <button 
                 key={item}
                 onClick={() => scrollTo(ids[idx] || 'pricing')}
-                className={`text-sm font-medium hover:text-yellow-400 transition-colors ${isScrolled ? 'text-gray-700' : 'text-brand-100'}`}
+                className={`text-sm font-medium hover:text-yellow-400 transition-colors text-gray-700`}
               >
                 {item}
               </button>
@@ -46,8 +46,7 @@ export const Header: React.FC = () => {
           })}
           <a href="https://pay.hotmart.com/H102906850D?checkoutMode=10" target="_blank" rel="noopener noreferrer">
             <Button 
-              variant={isScrolled ? 'primary' : 'primary'}
-              className={!isScrolled ? 'shadow-none bg-brand-500 text-white hover:bg-white hover:text-brand-500' : ''}
+              variant={'primary'}
               style={{ padding: '0.5rem 1.5rem', fontSize: '0.9rem' }}
             >
               Baixe seu Ebook
@@ -61,9 +60,9 @@ export const Header: React.FC = () => {
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
         >
           {isMobileMenuOpen ? (
-             <X className={isScrolled ? 'text-gray-900' : 'text-white'} />
+             <X className="text-gray-900" />
           ) : (
-             <Menu className={isScrolled ? 'text-gray-900' : 'text-white'} />
+             <Menu className="text-gray-900" />
           )}
         </button>
       </div>

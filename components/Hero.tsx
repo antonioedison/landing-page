@@ -35,8 +35,8 @@ export const Hero: React.FC = () => {
           <div className="w-full lg:w-1/2 relative">
             <div className="relative rounded-3xl overflow-hidden shadow-2xl">
               <img 
-                src="https://images.unsplash.com/photo-1545337577-6b6f3a39f60a?q=80&w=2070&auto=format&fit=crop" 
-                alt="Mulher saudável e feliz se exercitando ao ar livre" 
+                src="https://images.pexels.com/photos/1556691/pexels-photo-1556691.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+                alt="Mulher feliz e saudável ao ar livre, representando o resultado do emagrecimento com saúde." 
                 className="w-full h-auto object-cover transform hover:scale-105 transition-transform duration-700"
               />
             </div>
