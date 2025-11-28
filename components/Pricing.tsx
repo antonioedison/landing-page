@@ -45,7 +45,7 @@ export const Pricing: React.FC = () => {
 
           <div className="flex flex-col items-center justify-center mb-6">
             <span className="text-gray-400 text-lg line-through decoration-red-500">De R$ 175,00</span>
-            <div className="text-brand-600 font-extrabold text-6xl my-2">
+            <div className="text-red-600 font-extrabold text-6xl my-2">
               R$ 97,00
             </div>
             <span className="text-gray-500 text-sm">Oferta por tempo limitado</span>
