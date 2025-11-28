@@ -44,14 +44,15 @@ export const Header: React.FC = () => {
               </button>
             )
           })}
-          <Button 
-            onClick={() => scrollTo('pricing')} 
-            variant={isScrolled ? 'primary' : 'primary'}
-            className={!isScrolled ? 'shadow-none bg-brand-500 text-white hover:bg-white hover:text-brand-500' : ''}
-            style={{ padding: '0.5rem 1.5rem', fontSize: '0.9rem' }}
-          >
-            Baixe seu Ebook
-          </Button>
+          <a href="https://pay.hotmart.com/H102906850D?checkoutMode=10" target="_blank" rel="noopener noreferrer">
+            <Button 
+              variant={isScrolled ? 'primary' : 'primary'}
+              className={!isScrolled ? 'shadow-none bg-brand-500 text-white hover:bg-white hover:text-brand-500' : ''}
+              style={{ padding: '0.5rem 1.5rem', fontSize: '0.9rem' }}
+            >
+              Baixe seu Ebook
+            </Button>
+          </a>
         </nav>
 
         {/* Mobile Toggle */}
@@ -72,9 +73,11 @@ export const Header: React.FC = () => {
         <div className="absolute top-full left-0 w-full bg-white shadow-xl py-4 px-4 flex flex-col gap-4 md:hidden border-t border-gray-100">
            <button onClick={() => scrollTo('details')} className="text-gray-700 font-medium py-2">Benefícios</button>
            <button onClick={() => scrollTo('testimonials')} className="text-gray-700 font-medium py-2">Depoimentos</button>
-           <Button onClick={() => scrollTo('pricing')} fullWidth>
-             Baixe seu Ebook
-           </Button>
+           <a href="https://pay.hotmart.com/H102906850D?checkoutMode=10" target="_blank" rel="noopener noreferrer">
+             <Button fullWidth>
+               Baixe seu Ebook
+             </Button>
+           </a>
         </div>
       )}
     </header>

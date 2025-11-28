@@ -13,9 +13,11 @@ export const Footer: React.FC = () => {
           <p className="text-gray-500 mb-8">
             Cada dia que você adia a mudança é um dia a mais longe do seu objetivo.
           </p>
-          <Button className="bg-brand-700 hover:bg-brand-800 text-white font-bold py-4 px-8 rounded shadow-lg text-sm md:text-base">
-            👍 Clique Agora Mesmo e Garanta Seu Ebook Antes Que o Preço Suba!
-          </Button>
+          <a href="https://pay.hotmart.com/H102906850D?checkoutMode=10" target="_blank" rel="noopener noreferrer">
+            <Button className="bg-brand-700 hover:bg-brand-800 text-white font-bold py-4 px-8 rounded shadow-lg text-sm md:text-base">
+              👍 Clique Agora Mesmo e Garanta Seu Ebook Antes Que o Preço Suba!
+            </Button>
+          </a>
         </div>
       </section>
 

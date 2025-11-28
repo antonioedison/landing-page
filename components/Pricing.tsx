@@ -67,10 +67,12 @@ export const Pricing: React.FC = () => {
                </div>
              ))}
           </div>
-
-          <Button fullWidth className="bg-brand-600 hover:bg-brand-700 text-white text-lg py-4 mb-4">
-            QUERO COMEÇAR AGORA! <Rocket className="w-5 h-5 ml-2 inline" />
-          </Button>
+          
+          <a href="https://pay.hotmart.com/H102906850D?checkoutMode=10" target="_blank" rel="noopener noreferrer">
+            <Button fullWidth className="bg-brand-600 hover:bg-brand-700 text-white text-lg py-4 mb-4">
+              QUERO COMEÇAR AGORA! <Rocket className="w-5 h-5 ml-2 inline" />
+            </Button>
+          </a>
 
           <p className="text-xs text-gray-400">
             Pagamento 100% seguro via Hotmart

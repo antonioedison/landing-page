@@ -2,10 +2,6 @@ import React from 'react';
 import { Button } from './Button';
 
 export const Hero: React.FC = () => {
-  const scrollToPricing = () => {
-    document.getElementById('pricing')?.scrollIntoView({ behavior: 'smooth' });
-  };
-
   return (
     <section className="relative w-full py-20 lg:py-32 bg-gradient-to-br from-brand-50 to-white overflow-hidden">
       <div className="container mx-auto px-4">
@@ -24,9 +20,11 @@ export const Hero: React.FC = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-2">
-              <Button onClick={scrollToPricing} variant="primary">
-                Quero Emagrecer com Saúde
-              </Button>
+              <a href="https://pay.hotmart.com/H102906850D?checkoutMode=10" target="_blank" rel="noopener noreferrer">
+                <Button variant="primary">
+                  Quero Emagrecer com Saúde
+                </Button>
+              </a>
               <Button onClick={() => document.getElementById('details')?.scrollIntoView({ behavior: 'smooth' })} variant="outline-green">
                 Conheça o Método
               </Button>
@@ -37,8 +35,8 @@ export const Hero: React.FC = () => {
           <div className="w-full lg:w-1/2 relative">
             <div className="relative rounded-3xl overflow-hidden shadow-2xl">
               <img 
-                src="https://images.unsplash.com/photo-1483721310020-03333e577078?q=80&w=2070&auto=format&fit=crop" 
-                alt="Mulher saudável correndo no parque" 
+                src="https://images.unsplash.com/photo-1545337577-6b6f3a39f60a?q=80&w=2070&auto=format&fit=crop" 
+                alt="Mulher saudável e feliz se exercitando ao ar livre" 
                 className="w-full h-auto object-cover transform hover:scale-105 transition-transform duration-700"
               />
             </div>

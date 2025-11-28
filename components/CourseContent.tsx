@@ -124,8 +124,8 @@ export const CourseContent: React.FC = () => {
               className="w-full h-64 object-cover rounded-3xl shadow-lg"
             />
             <img 
-              src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=2070&auto=format&fit=crop" 
-              alt="Mulher feliz se exercitando ao ar livre" 
+              src="https://images.unsplash.com/photo-1517836357463-d25769937e4c?q=80&w=2070&auto=format&fit=crop" 
+              alt="Mulher realizando treino de Tabata de alta intensidade" 
               className="w-full h-64 object-cover rounded-3xl shadow-lg"
             />
           </div>
