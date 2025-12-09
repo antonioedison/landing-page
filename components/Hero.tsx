@@ -15,9 +15,22 @@ export const Hero: React.FC = () => {
               de Forma leve e Saudável
             </h1>
             
-            <p className="text-lg text-gray-600 font-light leading-relaxed max-w-xl">
-              Descubra o ebook completo e prático que já ajudou centenas de pessoas a alcançarem o corpo dos sonhos sem sofrimento, com orientações passo a passo e rotinas simples que cabem no seu dia.
-            </p>
+            <div className="space-y-6 text-lg text-gray-600 font-light leading-relaxed max-w-xl">
+              <p className="font-medium text-gray-800">
+                E se você pudesse perder até 10 kg em 8 semanas… sem sofrer, sem restrições absurdas e sem sentir que está lutando contra si mesma?
+              </p>
+              <p>
+                Muitas pessoas acreditam que emagrecer é difícil, cansativo e frustrante… mas isso só acontece quando você tenta fazer isso sozinha.
+              </p>
+              <p>
+                O e-book <span className="font-semibold text-brand-600">“Emagreça com Saúde”</span> foi criado exatamente para te guiar por um caminho leve, realista e possível. 
+                Nele, você vai descobrir um método claro, organizado e comprovado, que já ajudou várias pessoas a recuperarem a autoestima, a disposição e o controle da própria vida.
+              </p>
+              <p className="italic text-gray-700 bg-brand-50 p-4 rounded-lg border-l-4 border-brand-500">
+                Imagine você abrindo seu guarda-roupa e voltando a vestir aquela roupa que você ama… 
+                Imagine se olhar no espelho e sentir orgulho, sentir leveza, sentir que finalmente está chegando onde sempre quis chegar.
+              </p>
+            </div>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-2">
               <a href="https://pay.hotmart.com/H102906850D?checkoutMode=10" target="_blank" rel="noopener noreferrer">
